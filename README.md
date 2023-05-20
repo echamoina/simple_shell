@@ -1,1 +1,2 @@
-simple_shell
+# Simple_Shell
+The 1st group project
