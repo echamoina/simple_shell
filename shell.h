@@ -10,7 +10,7 @@
 #include <sys/stat.h> /* stat the function*/
 #include <sys/types.h> /* for type pid*/
 #include <fcntl.h> /* for open files*/
-#include <errors.h> 
+#include <errors.h>
 #include <signal.h>
 #include <limits.h>
 
