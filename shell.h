@@ -29,14 +29,14 @@
 */
 typedef struct details
 {
-    char *prog_name;
-    char *input_line;
-    char *command_name;
-    int exec_counter;
-    int file_descriptor;
-    char **tokens;
-    char **env;
-    char **alias_list;
+char *prog_name;
+char *input_line;
+char *command_name;
+int exec_counter;
+int file_descriptor;
+char **tokens;
+char **env;
+char **alias_list;
 } program_data;
 
 /**
@@ -91,4 +91,4 @@ int count_characters(char *string, char *character);
 int print_alias(program_data *data, char *alias);
 char *get_alias(program_data *data, char *alias);
 int set_alias(char *alias_string, program_data *data);
-#endif 
+#endif
