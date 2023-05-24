@@ -1,4 +1,4 @@
-# Simple_Shell
+# 0x16. C - Simple Shell
 The 1st group project
 
 ## Main objective
