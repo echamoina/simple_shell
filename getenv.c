@@ -48,7 +48,6 @@ int _unsetenv(info_t *info, char *var)
 	}
 	return (info->env_changed);
 }
-
 /**
  * _setenv - Initialize a new environment variable,
  *             or modify an existing one

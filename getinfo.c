@@ -11,7 +11,6 @@ void clear_info(info_t *info)
 	info->path = NULL;
 	info->argc = 0;
 }
-
 /**
  * set_info - initializes info_t struct
  * @info: struct address
